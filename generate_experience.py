@@ -28,10 +28,10 @@ def generate_experience_section(api_key, profile, job_listing, analysis):
     "4. Modify the descriptions of the candidate's work experience to highlight the most relevant skills, responsibilities, and achievements that align with the job requirements. Ensure each description is concise, impactful, and limited to 2-3 bullet points per role. Suggest additional responsibilities or achievements that could enhance the candidate's alignment with the job description, if applicable.\n"
     
     "5. Ensure the Work Experience section is in reverse chronological order (most recent experience first). Use the following template with placeholders to structure the section appropriately based on the candidate's field and the job description:\n"
-    
+    "6. Format the first line of each job experience entry in bold. The first line should include the job title, company name, location, and dates of employment. Follow this template for each job experience entry:\n"
 
     "Template:\n"
-    "{Job_Title},  {Company},  {Location},                                 {Start_Date} - {End_Date}\n"
+    "{Job_Title},  {Company},  {Location},        {Start_Date} - {End_Date}\n"
     "• {Responsibility_1}\n"
     "• {Responsibility_2}\n"
     "• {Responsibility_3}\n"
@@ -39,10 +39,10 @@ def generate_experience_section(api_key, profile, job_listing, analysis):
     
    
     
-    "6. Ensure the Work Experience section is concise, well-structured, and tailored to the specific job application. Aim for brevity without sacrificing important details. Limit each job description to a maximum of 3 bullet points.\n"
+    "7. Ensure the Work Experience section is concise, well-structured, and tailored to the specific job application. Aim for brevity without sacrificing important details. Limit each job description to a maximum of 3 bullet points.\n"
     
-    "7. Do not invent any facts; the section should be based solely on the information provided by the candidate. Adapt the language and focus to better match the job description. Suggest additional relevant responsibilities or achievements if they can enhance the candidate's fit for the job.\n"
-    
+    "9. Do not invent any facts; the section should be based solely on the information provided by the candidate. Adapt the language and focus to better match the job description. Suggest additional relevant responsibilities or achievements if they can enhance the candidate's fit for the job.\n"
+    "9. Do not start with the phrase  '## Work Experience' \n"
 
     "Candidate Information:\n"
     f"{profile}\n"

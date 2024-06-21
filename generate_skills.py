@@ -40,6 +40,7 @@ def generate_skills_section(api_key, profile, job_listing, analysis):
     
     "7. Do not invent any facts; the section should be based solely on the information provided by the candidate.\n"
     
+    "8. Do not start with the phrase  '## Skills & Abilities' \n"
 
     
     "Candidate Information:\n"

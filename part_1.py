@@ -12,7 +12,7 @@ def extract_formatting(run):
     if run is None:
         return {
             'font_name': 'Arial',
-            'font_size': 11,
+            'font_size': 12,
             'bold': False,
             'italic': False,
             'underline': False,
@@ -78,7 +78,7 @@ def replace_text_in_element(element, replacements, formatting_map):
                 if element.runs:
                     formatting = formatting_map.get(key, extract_formatting(element.runs[0]))
                 else:
-                    formatting = {'font_name': 'Arial', 'font_size': 11, 'bold': False, 'italic': False, 'underline': False, 'color': None}
+                    formatting = {'font_name': 'Arial', 'font_size': 12, 'bold': False, 'italic': False, 'underline': False, 'color': None}
                 element.clear()
                 add_hyperlink(element, value, value, formatting)
             else:

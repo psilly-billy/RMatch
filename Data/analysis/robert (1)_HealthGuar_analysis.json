@@ -1,0 +1,97 @@
+{
+    "tfidf_score": 39.92638074991529,
+    "embedding_score": 66.16186499595642,
+    "entity_score": 11.11111111111111,
+    "keyword_score": 11.11111111111111,
+    "final_score": 32.077616992023486,
+    "profile_keywords": {
+        "skills": [
+            "tensorflow",
+            "opencv",
+            "mysql",
+            "docker",
+            "google cloud",
+            "github",
+            "machine learning",
+            "python",
+            "numpy",
+            "linux"
+        ],
+        "certifications": [
+            "google",
+            "algorithms",
+            "developer",
+            "digital stack",
+            "data structures",
+            "digital",
+            "cloud"
+        ],
+        "projects": [
+            "lip reader",
+            "deep learning",
+            "damage detection",
+            "classification",
+            "mobilenetv2",
+            "streamlit",
+            "skin lesions",
+            "deployment",
+            "yolov8",
+            "roboflow"
+        ],
+        "summary": [
+            "junior developer",
+            "photography",
+            "cloud technologies",
+            "innovation",
+            "problem solving",
+            "creativity"
+        ],
+        "interests": [
+            "technology",
+            "wellness",
+            "running",
+            "artificial intelligence"
+        ]
+    },
+    "job_keywords": {
+        "requirements": [
+            "tensorflow",
+            "algorithms",
+            "c++",
+            "ml",
+            "biomedical signals",
+            "ai",
+            "python",
+            "java",
+            "pytorch",
+            "iso 14971"
+        ],
+        "responsibilities": [
+            "healthcare",
+            "patient outcomes",
+            "design",
+            "implement",
+            "healthcare professionals",
+            "startup",
+            "rpm"
+        ],
+        "skills": [
+            "biomedical datasets",
+            "smote",
+            "real-time signal processing",
+            "noise reduction",
+            "fourier transforms",
+            "wavelet transforms",
+            "signal processing",
+            "digital filtering",
+            "iso 13485",
+            "data augmentation"
+        ],
+        "experience": []
+    },
+    "keyword_overlap": [
+        "tensorflow",
+        "algorithms",
+        "python"
+    ]
+}
