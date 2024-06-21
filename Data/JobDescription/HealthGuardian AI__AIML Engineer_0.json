@@ -1,0 +1,35 @@
+{
+    "organization": "HealthGuardian AI",
+    "job_title": "AI/ML Engineer",
+    "location": "United Kingdom",
+    "requirements": [
+        "Optimise AI/ML algorithms for performance, scalability, and reliability.",
+        "Stay updated on AI advancements and apply them to healthcare challenges.",
+        "Bachelor's degree in Computer Science, Engineering, or related field (Master's or Ph.D. preferred).",
+        "Proficiency in Python, C++, Java, MATLAB, etc",
+        "Self driven and ability to work independently from scratch",
+        "Strong understanding of machine learning techniques and deep learning frameworks (e.g., TensorFlow, PyTorch).",
+        "Experience deploying AI models in production environments.",
+        "Expert in feature extraction from biomedical signals (e.g., ECG) using advanced time-domain, frequency-domain, and wavelet techniques, including vital sign and low-frequency signal analysis.",
+        "Experience with PCA, ICA, and t-SNE for high-dimensional data analysis.",
+        "ISO 14971:",
+        "Knowledge of risk management principles in medical device development, enabling the identification, assessment, and mitigation of potential hazards to patient safety.",
+        "ISO 62304:",
+        "‍",
+        "Join us in shaping the future of healthcare technology at HealthGuardian AI. Apply now and be part of something extraordinary!"
+    ],
+    "responsibilities": [
+        "The odds that we all know people close to us who struggle with chronic conditions, post-surgical challenges, or limited access healthcare is too high. Join our mission to provide vital support to healthcare professionals, ensuring better outcomes for patients everywhere. This is your opportunity to be part of a fast-growing startup that's changing the face of healthcare. Together, we can make a real difference and provide the future tools for the healthcare professionals today .\"",
+        "Design and implement AI/ML to enhance RPM device functionality."
+    ],
+    "skills": [
+        "Strong understanding of advanced signal processing techniques, including Fourier transforms, wavelet transforms, digital filtering, and noise reduction.",
+        "Experience managing and pre-processing large-scale biomedical datasets, using data augmentation, synthetic data generation, and handling class imbalance with SMOTE.",
+        "Proficiency in real-time signal processing and algorithm optimisation for high-performance, low-latency applications.",
+        "Desirable:",
+        "Familiarity with medical device development standards,",
+        "ISO 13485:"
+    ],
+    "benefits": [],
+    "other_details": []
+}
