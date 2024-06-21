@@ -413,16 +413,15 @@ def profile_m():
                 save_details(username, details)
                 st.success("Interests saved successfully!")
 
-        # Add Short Bio section
         with st.expander("Short Bio", expanded=False):
             st.markdown("<h2>Short Bio</h2>", unsafe_allow_html=True)
-            short_bio = st.text_area("Short Bio", details.get("short_bio", ""), help="Provide a brief bio.")
+            short_bio = st.text_area("Short Bio", details.get("short_bio", ""), help="Provide a brief bio about yourself.")
             details["short_bio"] = short_bio
 
             if st.button("Save Short Bio"):
                 details["short_bio"] = short_bio
                 save_details(username, details)
-                st.success("Short Bio saved successfully!")
+                st.success("Short bio saved successfully!")
 
         st.download_button(
             label="Download Profile as JSON",
