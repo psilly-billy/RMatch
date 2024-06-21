@@ -19,9 +19,9 @@ def load_details(username):
             return json.load(file)
     return {}
 
-def save_details_to_file(details, filename):
-    with open(filename, 'w') as file:
-        json.dump(details, file, indent=4)
+def save_uploaded_profile(uploaded_file):
+    with open(os.path.join(USER_PROFILES_DIR, uploaded_file.name), 'wb') as file:
+        file.write(uploaded_file.getbuffer())
 
 def load_details_from_file(file):
     return json.load(file)
@@ -415,13 +415,13 @@ def profile_m():
 
         with st.expander("Short Bio", expanded=False):
             st.markdown("<h2>Short Bio</h2>", unsafe_allow_html=True)
-            short_bio = st.text_area("Short Bio", details.get("short_bio", ""), help="Provide a brief bio about yourself.")
+            short_bio = st.text_area("Short Bio", details.get("short_bio", ""), help="Provide a brief summary about yourself.")
             details["short_bio"] = short_bio
 
             if st.button("Save Short Bio"):
                 details["short_bio"] = short_bio
                 save_details(username, details)
-                st.success("Short bio saved successfully!")
+                st.success("Short Bio saved successfully!")
 
         st.download_button(
             label="Download Profile as JSON",
@@ -429,6 +429,11 @@ def profile_m():
             file_name=f"{username}_profile.json",
             mime="application/json",
         )
+
+        if uploaded_file:
+            if st.button("Save Uploaded Profile"):
+                save_uploaded_profile(uploaded_file)
+                st.success("Uploaded profile saved successfully!")
 
 if __name__ == "__main__":
     profile_m()
